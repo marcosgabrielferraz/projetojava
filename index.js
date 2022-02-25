@@ -1,14 +1,6 @@
-// Example
-var firstLetter0fFirstName = "";
-var firstName = "Ada";
-
-firstLetter0fFirstName = firstName[0];
-
 // Setup
-var  firstLetter0fLastName = "";
-var lastName = "lovelace";
+var myStr = "Jello world";
 
-// Only change code below this line.
+// Only change code below this line 
 
-firstLetter0fFirstName = lastName[0];
-console.log(firstLetter0fLastName)
+myStr[0] = "Hello World";
