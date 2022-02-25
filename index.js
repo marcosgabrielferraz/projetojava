@@ -6,16 +6,15 @@ var ourdog = {
     "friends": ["everything!"]
 }
 
-ourDog.name = "Happy Camper";
+ourDog.bark = "bow-wow";
 
 //setup
 var myDog={
-    "name":"Quincy",
+    "name":"Happy Coder",
     "legs": 3,
     "tails": 2,
     "friends":["freeCodeCamp Campers"]  
 };
 
 // Only change code below this line.
-
-myDog = "Happy coder";
+myDog['bark'] = "woof!";
