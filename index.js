@@ -1,10 +1,15 @@
 // Setup
-function compareEquality(val) {
-    if (val != 99) { // Change this line
-        return "Equal";
-    }
-    return "not Equal";
+function testStrictNotEqual(val) {
+    //  Only Change Code Below this line
+    
+    if (val !== 17){
+    
+    // Only Change Code Above this line
+    
+        return " not Equal";
+        }
+    return "Equal";
 }
 
 // Change this value to test
-console.log(testNotEqual(10))
+console.log(testStrictEqual(10))
