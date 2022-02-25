@@ -1,10 +1,10 @@
 // Setup
-function compareEquality(a, b) {
-    if (a === b) { // Change this line
+function compareEquality(val) {
+    if (val != 99) { // Change this line
         return "Equal";
     }
     return "not Equal";
 }
 
 // Change this value to test
-console.log(compareEquality(10, "10"))
+console.log(testNotEqual(10))
