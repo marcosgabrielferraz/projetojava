@@ -1,15 +1,14 @@
-// Setup
-function testStrictNotEqual(val) {
-    //  Only Change Code Below this line
+function testGreaterThan(val) {
+    if (val > 100) { // Change this line
+        return "Over 100";
+    }
     
-    if (val !== 17){
+    if (val > 10) { // Change this line 
+        return "Over 10";
+    }
     
-    // Only Change Code Above this line
-    
-        return " not Equal";
-        }
-    return "Equal";
+    return "10 or Under";
 }
 
-// Change this value to test
-console.log(testStrictEqual(10))
+//Change this value to test
+console.log(testGreaterThan(10))
