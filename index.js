@@ -1,18 +1,22 @@
-// Setup 
-var myObj = {
-    gift: "pony",
-    pet: "kitten",
-    bed: "sleigh"
-};
-
-function chechOjt(checkprop){
-    // Your code here]
-    if (myObj.hasOwnProperty(checkprop)){
-        return myObj[checkprop];
-    }else {
-        return "Not Found"
+var mymusic = [
+    {
+        "artist ":"Billy Joel",
+        "title":"Piano Man",
+        "release_year":1973,
+        "formats":[
+            "DC",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    },
+    // Add record here
+    {
+        "artist":"Beau Carnes",
+        "title":"Cereal Man",
+        "release_your": 2003,
+        "formats": [
+            "YouTube video"
+        ]
     }
-}
-
-// Test your code by modifying these values
-console.log(chechOjt("Hello"));
+]
