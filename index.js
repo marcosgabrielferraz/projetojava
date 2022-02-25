@@ -1,5 +1,10 @@
 // Example
-var ourArray = [["the universe", 42],["everything", 101010]];
+var ourArrray = [50,60,70];
+var ourData = ourArray[0];// equals 50
 
-// Only change code below this line
-var myArray =[["Bulls, 23"], ["White Sox", 45]];
+//setup
+var myArray = [50,60,70];
+
+// Only change code below this line.
+var myData = myArray[0];
+console.log(myData)
