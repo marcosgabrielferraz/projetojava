@@ -1,10 +1,13 @@
 // Example 
-var ourArray = ["stimpson", "J", "cat"];
-ourArray.push(["happy","joy"]);
-// ourArray now eguals ["Stimpson", "j", "cat", ["happy", "joy"]]
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop();
+// removedFromOurArray now equals 3, and ourArray now equals [1,2]
 
 // Setup
 var myArray = [["John", 23], ["cat", 2]];
 
-// Only change code below this line.
-myArray.push(["dog", 3])
+// Only change code below this line
+var removedFrommyArray = myArray.pop();
+
+console.log(myArray)
+
