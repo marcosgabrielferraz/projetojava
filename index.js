@@ -1,11 +1,9 @@
-function minusSeven(num){
-    return num - 7;
+// Example 
+var sum = 0;
+function addThree(){
+    sum = sum + 3;
 }
 
-console.log(minusSeven(10));
-
-function timesfive(num){
-    return num * 5;
+function addFive(){
+    sum += 5;
 }
-
-console.log(timesfive(5));
