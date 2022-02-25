@@ -1,10 +1,10 @@
 // Example
-var ourArrray = [50,60,70];
-var ourData = ourArray[0];// equals 50
+var ourArrray = [18,64,99];
+ourArray[1] = 45;// ourArray now equals [18,45,99];
 
 //setup
-var myArray = [50,60,70];
+var myArray = [18,64,99];
 
 // Only change code below this line.
-var myData = myArray[0];
-console.log(myData)
+myArray[0] = 45;
+console.log(myArray)
