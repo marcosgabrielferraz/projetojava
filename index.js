@@ -1,11 +1,21 @@
-// seetup
-var testObj = {
-    12: "Namath",
-    16: "Montana",
-    19: "Unitas"
+// Example
+var ourdog = {
+    "name":"Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+}
+
+ourDog.name = "Happy Camper";
+
+//setup
+var myDog={
+    "name":"Quincy",
+    "legs": 3,
+    "tails": 2,
+    "friends":["freeCodeCamp Campers"]  
 };
 
-// Only change code below this line
+// Only change code below this line.
 
-var playerNumber= 16;    // Change this line
-var player = testObj[playerNumber]   // Change this line
+myDog = "Happy coder";
