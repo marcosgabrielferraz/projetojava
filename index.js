@@ -1,1 +1,14 @@
-var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 5]]
+// Example
+function ourReusableFunction(){
+    console.log("Heyya, Word");
+}
+
+ourReusableFunction();
+
+// Only change code below this line
+
+function reusableFunction(){
+    console.log("Hi Word")
+}
+
+reusableFunction();
