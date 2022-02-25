@@ -1,14 +1,12 @@
-function testElseIf(val) {
-    if ( val > 10) { 
-      return "Greater than 10";
-    } else if ( val < 5) { 
-      return "Smaller than 5";
+function ordeMyLogic(val) {
+    if ( val < 5) { 
+      return "Less than 5";
+    } else if ( val < 10) { 
+      return "Less than 10";
     } else{
-      return "Between 5 and 10";
+      return "Greater than or equal to 10";
     }
-    
-    
 }
 
 // Change this value to test
-testElseIf(7);
+console.log(ordeMyLogic(3));
