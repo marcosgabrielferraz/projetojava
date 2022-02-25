@@ -1,10 +1,11 @@
-var outerWear = "T-Shirt";
-
-function myOutfit() {
-    var outerWear = "sweater";
-    
-    return outerWear;
+function minusSeven(num){
+    return num - 7;
 }
 
-console.log(myOutfit());
-console.log(outerWear);
+console.log(minusSeven(10));
+
+function timesfive(num){
+    return num * 5;
+}
+
+console.log(timesfive(5));
