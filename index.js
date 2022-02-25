@@ -1,17 +1,10 @@
-// Example
-function uorTrueOrFalse(inItTrue){
-    if (isIttrue){
-        return "Yes, it's true";
+// Setup
+function testEqual(val) {
+    if (val == 12) { // Change this line
+        return"Equal";
     }
-    return "No, it's false";
+    return"not Egual";
 }
 
-function trueOrFalse(wasThatTrue){
-        if (wasThatTrue){
-            return"Yes, that was true";
-        }
-        return "No, that was false";
-    
-}
-
-console.log(trueOrFalse(true));
+// Change this value to tast
+console.log(testEqual(10));
