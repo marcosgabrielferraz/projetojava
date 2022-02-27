@@ -1,19 +1,15 @@
-// Example
-var ourArr = [9, 10, 11, 12];
-var ourTotal= 0;
-
-for (var i = 0; i < ourArr.length; i++) {
-    ourTotal += ourArr[i];
+function multiplyAll(arr) {
+    var product = 1;
+    
+    for (var i=0; i < arr.length; i++){
+        for (var j=0; j < arr[i].length; j++) {
+            product *= arr[i][j];
+        }
+    }
+    
+    return product;
 }
 
-console.log(ourTotal);
+var product = multiplyAll([[1,2],[3,4],[5,6,7]]);
 
-// Setup
-var myArr = [2,3,4,5,6];
-var total = 0;
-
-for (var i = 0; i < myArr.length; i++) {
-    total += myArr[i]
-}
-
-console.log(total)
+console.log(product);
