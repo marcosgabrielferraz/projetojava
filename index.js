@@ -1,11 +1,10 @@
-const [z, x, , y] = [1, 2, 3, 4, 5, 6];
-console.log(z, x);
-
- 
-let a = 8, b = 6;
-(() => {
-    "use strict";
-    [a, b] = [b, a]
-})();
- console.log(a);
- console.log(b);
+const source = [1,2,3,4,5,6,7,8,9,10];
+function removerFirstTwo(list) {
+    
+    const [ , , ...arr] = list;
+    
+    return arr;
+}
+const arr = removerFirstTwo(source);
+console.log(arr);
+console.log(source);
