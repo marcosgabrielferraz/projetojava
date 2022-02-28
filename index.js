@@ -1,12 +1,41 @@
-// Setup
-var myArray = [];
-var i = 10;
+// Setup 
+var contacts = [
+    {
+        "firsName":"Akira",
+        "lastName":"Laine",
+        "number":"0543236543",
+        "like":["Pizza", "Coding", "Brownie Points"] 
+        },
+    {
+        "firsName":"Harry",
+        "lastName":"Potter",
+        "number":"0994372684",
+        "like":["Hogwarts", "Magic", "Hagrid"] 
+        },
+    {
+        "firsName":"Sherlock",
+        "lastName":"Holmes",
+        "number":"0487345643",
+        "like":["Intriguing Cases", "violin"] 
+        },
+    {
+        "firsName":"kristian",
+        "lastName":"Vos",
+        "number":"unknown",
+        "like":["JavaScript", "Gaming", "Foxes"] 
+        }
+];
 
-// Only change code below this line.
+function lookUpProfile(name, prop){
+    for (var i = 0; i < contacts.length; i++) {
+        if(contacts[i].firsName === name){
+            return contacts[i][prop] || "No such property";
+        }
+    }
+    return "No such contact";
+}
 
-do {
-    myArray.push(i);
-    i++;
-} while (i < 5)
+//Change hese values to test function
+var data = lookUpProfile("Shirlock", "lastName");
 
-console.log(i, myArray);
+console.log(data);
