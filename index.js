@@ -1,15 +1,11 @@
-var nummber = 5; //in-line comment
+/* Data types:
+undefined, null, boolean, string, symbol, number, and object
+*/
 
-/*this is a 
-d
-d
-d
-sdfas
+var myName = "Beau"
 
-dsaf
-vczx
+myName = 8
 
-multi-line comment */
+let ourName = "freeeCodeCamp"
 
-
-number = 9;
+const pi = 3.14
