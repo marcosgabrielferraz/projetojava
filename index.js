@@ -1,10 +1,17 @@
-const source = [1,2,3,4,5,6,7,8,9,10];
-function removerFirstTwo(list) {
+const stats = {
+    max: 56.78,
+    stadard_deviation: 4.34,
+    median: 34.54,
+    mode: 23.87,
+    min: -0.75,
+    average: 35.85
+};
+const half = (function(){
     
-    const [ , , ...arr] = list;
+    return function half({ max, min }){
+        return (max + min)/ 2.0;
+    };
     
-    return arr;
-}
-const arr = removerFirstTwo(source);
-console.log(arr);
-console.log(source);
+})();
+console.log(stats);
+console.log(half(stats));
