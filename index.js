@@ -1,6 +1,7 @@
-const sum = (function(){
-    return function sum(...args){
-        return args.reduce((a, b) => a + b, 0);
-    };
+const arr1 = ['JAN', 'FEB', 'MAR', 'ABR', 'MAY'];
+let arr2;
+(function() {
+    arr2 = [...arr1]; //change this line
+    arr1[0] = 'potato' 
 })();
-console.log(sum(1, 2, 3, 4));
+console.log(arr2);
