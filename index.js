@@ -1,7 +1,7 @@
 function randomFraction() {
-    
-    
-    return math.rondom();
+
+
+    return Math.random();
 }
 
-console.log(randomFraction())
+console.log(randomFraction());
