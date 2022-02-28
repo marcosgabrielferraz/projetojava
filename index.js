@@ -1,1 +1,3 @@
-function subtract(x, y) {return x - y;}
+import subtract from "math_functions";
+
+subtract(7,4);
