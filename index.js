@@ -1,4 +1,8 @@
-import {capitalizeString} from "./string_function"
-const cap = capitalizeString("Hello!");
+const capitalizeString = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
-console.log(cap);
+export { capitalizeString };
+
+export const foo = "bar";
+export const bar = "foo";
