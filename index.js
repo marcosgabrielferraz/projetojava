@@ -1,9 +1,5 @@
-// condition ? statement-if-true : statement-if-false;
-
-function chackEqual(a, b) {
-    return a === b ? true : false;
-    
-    return a === b;
+function checkSign(num) {
+    return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
 }
 
-chackEqual(1, 2);
+console.log(checkSign(0));
