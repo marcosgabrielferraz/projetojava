@@ -1,7 +1,7 @@
 function randomFraction() {
     
     
-    return 0;
+    return math.rondom();
 }
 
 console.log(randomFraction())
