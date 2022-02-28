@@ -1,5 +1,5 @@
 function convertToInteger(atr){
-    return parseInt(str);
-}
-
-convertToInteger("56");
+    returnparseInt(str, 2)
+ }
+ 
+ convertToInteger("10011");
