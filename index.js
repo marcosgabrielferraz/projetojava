@@ -1,3 +1,15 @@
-import subtract from "math_functions";
+var nummber = 5; //in-line comment
 
-subtract(7,4);
+/*this is a 
+d
+d
+d
+sdfas
+
+dsaf
+vczx
+
+multi-line comment */
+
+
+number = 9;
