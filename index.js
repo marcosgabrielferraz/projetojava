@@ -1,12 +1,17 @@
-const s = [5, 7, 2];
-function editInPlace(){
+function freezeObj() {
     "use strict";
+    const MATH_CONSTAANTS = {
+        PI:3.14
+    };
     
-    //s = [2, 5, 7];
-    s[0] = 2;
-    s[1] = 5;
-    s[2] = 7;
+    try {
+        MATH_CONSTAANTS.PI = 99;
+    }   catch( ex ) {
+        console.log(ex);
+    }
+    return MATH_CONSTAANTS.PI;
 }
-editInPlace();
 
-console.log(s);
+const PI = freezeObj();
+
+console.log(PI);
