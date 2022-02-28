@@ -1,13 +1,12 @@
-function printManyTimes(str) {
+const s = [5, 7, 2];
+function editInPlace(){
     "use strict";
     
-    const SENTEnCE = str + "is cool!";
-    
-    sentece = str + "is amazing!"
-    
-    for(let i = 0; i < str.length; i+=2) {
-        console.log(SENTEnCE);
-    }
-    
+    //s = [2, 5, 7];
+    s[0] = 2;
+    s[1] = 5;
+    s[2] = 7;
 }
-printManyTimes("freeCodeCamp");
+editInPlace();
+
+console.log(s);
