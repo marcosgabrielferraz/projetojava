@@ -1,34 +1,62 @@
-var sum = 10 + 10;
-console.log(sum)
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
 
-var difference= 45 - 33;
-console.log(difference)
+//Only change code below this line 
 
-var product = 8 * 10;
-var quotient = 66 / 33;
+var myFirstName = "Beau";
+var myLastName = "Carnes";
 
-var myVar = 87;
+// Example
+var ourStr = "I come first." + "I come second.";
 
-// Only change code below this line
-myVar++;
+// Only change code below this line 
 
-var myVar = 87;
+var myStr = "This is the start." + "This is the end."
+console.log(myStr);
 
-// Only change code below this line
-myVar--;
+// Example
+var ourStr = "I come first. ";
+ourStr += "I come second.";
 
-var ouDecimal = 5.7;
+// Only change code below this line 
 
-// Only change code below this line
+var myStr = "This is the first sentence. "
+myStr += "This is the second sentence."
 
-var myDecimal =0.009
+console.log(myStr);
+ 
+// Example
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is" + ourName + ", how are you?";
 
-var product = 2.0 * 2.5;
-console.log(product)
+// Only change code bellow this line
+var myName= "Beau";
+var myStr= "My name is " + myName + " and I am well!";
+console.log(myStr)
 
-var quotient= 4.4 / 2.0;
+/// Example
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is";
+ourStr += anAdjective
 
-// Only change code below this line
+// Onlty change code below this line
 
-var remainder
-remainder= 11 % 3;
+var someAdjective;
+var myStr = "Learning to code is";
+myStr += someAdjective;
+
+// Example
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+// Setup
+var lastNameLength = 0;
+var lastName = "lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+console.log(lastNameLength)
