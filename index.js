@@ -1,5 +1,13 @@
-function checkSign(num) {
-    return num > 0 ? "positive" : num < 0 ? "negative" : "zero"
-}
+let catName = "Quincy";
+let quote;
 
-console.log(checkSign(0));
+catName = "Beau";
+
+function catTalk() {
+    "use strict";
+    
+    catName = "Oliver";
+    quote = catName + "says Meow!";
+    
+}
+catTalk();
