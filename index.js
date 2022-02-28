@@ -1,11 +1,8 @@
-/* Data types:
-undefined, null, boolean, string, symbol, number, and object
-*/
+var a;
+var b = 2;
+console.log(a)
+a = 7;
 
-var myName = "Beau"
+b = a;
 
-myName = 8
-
-let ourName = "freeeCodeCamp"
-
-const pi = 3.14
+console.log(a)
